@@ -11,7 +11,7 @@ Jorge Roldan, Stephanie Smith, Nikita Rogers
    ```
 
 ### Project Summary
-An e-commerce shipping company is seeing 60% of deliveries arrive late, driving poor customer satisfaction. To determine what is causing the delays, a sample of 10,999 were analyzed and used to train a classification model. The logistic regression results show higher discounts are a primary driver of late delivery.
+An e-commerce shipping company is experiencing 60% late deliveries, leading to poor customer satisfaction. To understand the drivers of delay, we analyzed 10,999 shipment records and trained three classification models: (1) Logistic Regression, (2) Random Forests, and (3) Histogram-based Gradient Boosting. Based on recall and F1-score, Logistic Regression was the most appropriate for this use case. The model indicates that higher discounts are a primary driver of late delivery, suggesting promotions are creating demand spikes that the current supply chain cannot absorb.
 
 #### Project Objectives
 1. Find drivers of lateness across product and logistics features.
